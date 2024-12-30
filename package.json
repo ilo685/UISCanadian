@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ilo685.github.io/UISCanadian",
+
+"homepage": "https://ilo685.github.io/Canadiansite",
 
   "scripts": {
     "dev": "vite",
@@ -11,7 +12,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
      "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+  "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^1.7.9",
